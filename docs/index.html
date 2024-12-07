@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JARVIS MARK 7 Documentation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>JARVIS MARK 7 Documentation</h1>
+    <p>Welcome to the documentation for JARVIS MARK 7. This project is an advanced AI control system that combines face authentication, voice commands, and automated task execution.</p>
+    <h2>Client Documentation</h2>
+    <p>The client is a React-based application that provides a modern GUI for interacting with the JARVIS MARK 7 system. It uses Tailwind CSS for styling and WebSocket for real-time communication.</p>
+    <h3>Setup</h3>
+    <ol>
+        <li>Clone the client repository: <code>git clone https://github.com/Likhithsai2580/JARVIS-MARK7-CLIENT.git</code></li>
+        <li>Navigate to the client directory: <code>cd JARVIS-MARK7-CLIENT</code></li>
+        <li>Install dependencies: <code>npm install</code></li>
+        <li>Start the development server: <code>npm run dev</code></li>
+    </ol>
+    <h3>Project Structure</h3>
+    <pre>
+    .
+    ├── src/               # Source code
+    └── public/            # Static assets
+    </pre>
+    <h2>Server Documentation</h2>
+    <p>The server is a Python-based application that handles code execution, face authentication, and communication with the Android bridge server. It uses FastAPI for the API and WebSocket for real-time communication.</p>
+    <h3>Setup</h3>
+    <ol>
+        <li>Clone the server repository: <code>git clone https://github.com/Likhithsai2580/JARVIS-MARK7-SERVER.git</code></li>
+        <li>Navigate to the server directory: <code>cd JARVIS-MARK7-SERVER</code></li>
+        <li>Set up the Python environment:
+            <ol>
+                <li>Create and activate virtual environment: <code>python -m venv venv</code></li>
+                <li>Activate the virtual environment: <code>source venv/bin/activate</code> (Linux/Mac) or <code>.\venv\Scripts\activate</code> (Windows)</li>
+                <li>Install dependencies: <code>pip install -r codebrew/requirements.txt</code></li>
+            </ol>
+        </li>
+        <li>Set up the Android Bridge Server:
+            <ol>
+                <li>Navigate to the android_bridge_server directory: <code>cd android_bridge_server</code></li>
+                <li>Install dependencies: <code>npm install</code></li>
+            </ol>
+        </li>
+        <li>Configure environment variables:
+            <ol>
+                <li>Copy example env files: <code>cp .env.example .env</code></li>
+                <li>Copy example env files for android bridge server: <code>cp android_bridge_server/.env.example android_bridge_server/.env</code></li>
+            </ol>
+        </li>
+    </ol>
+    <h3>Project Structure</h3>
+    <pre>
+    .
+    ├── codebrew/         # Python code execution engine
+    ├── android_bridge/   # Android bridge server
+    └── face_auth/        # Face authentication service
+    </pre>
+    <script src="script.js"></script>
+</body>
+</html>
