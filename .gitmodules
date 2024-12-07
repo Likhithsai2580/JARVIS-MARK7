@@ -1,0 +1,6 @@
+[submodule "JARVIS-MARK7-CLIENT"]
+	path = JARVIS-MARK7-CLIENT
+	url = https://github.com/Likhithsai2580/JARVIS-MARK7-CLIENT.git
+[submodule "JARVIS-MARK7-SERVER"]
+	path = JARVIS-MARK7-SERVER
+	url = https://github.com/Likhithsai2580/JARVIS-MARK7-SERVER.git
