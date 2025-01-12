@@ -134,6 +134,7 @@ pytest -m integration
 - [Server Documentation](./server/README.md)
 - [API Documentation](./docs/API.md)
 - [Development Guide](./DEVELOPERS.md)
+- [HTML Documentation](./docs/index.html)
 
 ## 🔐 Security
 
